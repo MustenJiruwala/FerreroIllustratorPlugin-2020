@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1512BDDE2268A1A8001D465B /* ArticleJob.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1512BDDA2268A1A8001D465B /* ArticleJob.cpp */; };
+		1512BDDF2268A1A8001D465B /* GraphicItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1512BDDB2268A1A8001D465B /* GraphicItem.cpp */; };
+		1512BDE02268A1A8001D465B /* FerreroServerFacade.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1512BDDC2268A1A8001D465B /* FerreroServerFacade.cpp */; };
+		1512BDE12268A1A8001D465B /* ArtworkUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1512BDDD2268A1A8001D465B /* ArtworkUtil.cpp */; };
+		1512BDE32268A7DB001D465B /* libxerces.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1512BDE22268A7DB001D465B /* libxerces.dylib */; };
+		1512BDE52268A80C001D465B /* libcurl.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1512BDE42268A80C001D465B /* libcurl.4.dylib */; };
+		1512BDF02268BCD4001D465B /* IAIFilePath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1512BDEF2268BCD4001D465B /* IAIFilePath.cpp */; };
+		1512BDF52268C00E001D465B /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 1512BDF12268C00E001D465B /* mztools.c */; };
+		1512BDF62268C00E001D465B /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 1512BDF22268C00E001D465B /* ioapi.c */; };
+		1512BDF72268C00E001D465B /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 1512BDF32268C00E001D465B /* zip.c */; };
+		1512BDF82268C00E001D465B /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 1512BDF42268C00E001D465B /* unzip.c */; };
+		1512BDFA2269B87E001D465B /* libxerces.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1512BDE22268A7DB001D465B /* libxerces.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		15DAAF4625495E1B00834F93 /* TemplateData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15DAAF3C25495E1A00834F93 /* TemplateData.cpp */; };
+		15DAAF4725495E1B00834F93 /* Path.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15DAAF3D25495E1A00834F93 /* Path.cpp */; };
+		15DAAF4825495E1B00834F93 /* Rule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15DAAF3E25495E1B00834F93 /* Rule.cpp */; };
+		15DAAF4925495E1B00834F93 /* EXTLogger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15DAAF3F25495E1B00834F93 /* EXTLogger.cpp */; };
+		15DAAF4A25495E1B00834F93 /* Logger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15DAAF4025495E1B00834F93 /* Logger.cpp */; };
+		15DAAF4B25495E1B00834F93 /* CommonUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15DAAF4125495E1B00834F93 /* CommonUtil.cpp */; };
+		15DAAF4C25495E1B00834F93 /* RuleData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15DAAF4225495E1B00834F93 /* RuleData.cpp */; };
+		15DAAF4D25495E1B00834F93 /* TemplateLog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15DAAF4325495E1B00834F93 /* TemplateLog.cpp */; };
+		15DAAF4E25495E1B00834F93 /* PathSegment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15DAAF4425495E1B00834F93 /* PathSegment.cpp */; };
+		15DAAF4F25495E1B00834F93 /* TestPanelController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15DAAF4525495E1B00834F93 /* TestPanelController.cpp */; };
+		15DAAF522549609700834F93 /* HtmlUIController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15DAAF502549609700834F93 /* HtmlUIController.cpp */; };
+		15DAAF532549609700834F93 /* SDKPlugPlug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15DAAF512549609700834F93 /* SDKPlugPlug.cpp */; };
+		15DAAF55254960D300834F93 /* IAIStringFormatUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15DAAF54254960D300834F93 /* IAIStringFormatUtils.cpp */; };
+		15DAAF57254993C000834F93 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15DAAF56254993C000834F93 /* CoreFoundation.framework */; };
+		2AF5F7490CF5EF100091D961 /* AppContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AF5F7430CF5EF100091D961 /* AppContext.cpp */; };
+		2AF5F74A0CF5EF100091D961 /* IllustratorSDK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AF5F7440CF5EF100091D961 /* IllustratorSDK.cpp */; };
+		2AF5F74B0CF5EF100091D961 /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AF5F7450CF5EF100091D961 /* Main.cpp */; };
+		2AF5F74C0CF5EF100091D961 /* Plugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AF5F7460CF5EF100091D961 /* Plugin.cpp */; };
+		2AF5F74D0CF5EF100091D961 /* SDKAboutPluginsHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AF5F7470CF5EF100091D961 /* SDKAboutPluginsHelper.cpp */; };
+		2AF5F74E0CF5EF100091D961 /* Suites.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AF5F7480CF5EF100091D961 /* Suites.cpp */; };
+		2AF5F7520CF5EF2B0091D961 /* IAIUnicodeString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AF5F7500CF5EF2B0091D961 /* IAIUnicodeString.cpp */; };
+		2AF5F7580CF5EF4D0091D961 /* MenuPlayID.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AF5F7530CF5EF4D0091D961 /* MenuPlayID.h */; };
+		2AF5F7590CF5EF4D0091D961 /* MenuPlayPlugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AF5F7540CF5EF4D0091D961 /* MenuPlayPlugin.cpp */; };
+		2AF5F75A0CF5EF4D0091D961 /* MenuPlayPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AF5F7550CF5EF4D0091D961 /* MenuPlayPlugin.h */; };
+		2AF5F75B0CF5EF4D0091D961 /* MenuPlaySuites.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AF5F7560CF5EF4D0091D961 /* MenuPlaySuites.cpp */; };
+		2AF5F75C0CF5EF4D0091D961 /* MenuPlaySuites.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AF5F7570CF5EF4D0091D961 /* MenuPlaySuites.h */; };
+		F938CB070B8B9CE60039754D /* MenuPlay.r in Rez */ = {isa = PBXBuildFile; fileRef = F938CB060B8B9CE60039754D /* MenuPlay.r */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1512BDF92269B858001D465B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = dylibs;
+			dstSubfolderSpec = 6;
+			files = (
+				1512BDFA2269B87E001D465B /* libxerces.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1512BDDA2268A1A8001D465B /* ArticleJob.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ArticleJob.cpp; path = Source/ArticleJob.cpp; sourceTree = "<group>"; };
+		1512BDDB2268A1A8001D465B /* GraphicItem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GraphicItem.cpp; path = Source/GraphicItem.cpp; sourceTree = "<group>"; };
+		1512BDDC2268A1A8001D465B /* FerreroServerFacade.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FerreroServerFacade.cpp; path = Source/FerreroServerFacade.cpp; sourceTree = "<group>"; };
+		1512BDDD2268A1A8001D465B /* ArtworkUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ArtworkUtil.cpp; path = Source/ArtworkUtil.cpp; sourceTree = "<group>"; };
+		1512BDE22268A7DB001D465B /* libxerces.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxerces.dylib; path = lib/libxerces.dylib; sourceTree = "<group>"; };
+		1512BDE42268A80C001D465B /* libcurl.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurl.4.dylib; path = lib/libcurl.4.dylib; sourceTree = "<group>"; };
+		1512BDE92268B437001D465B /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		1512BDEB2268B45D001D465B /* libz.1.1.3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.1.3.tbd; path = usr/lib/libz.1.1.3.tbd; sourceTree = SDKROOT; };
+		1512BDEF2268BCD4001D465B /* IAIFilePath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IAIFilePath.cpp; path = ../../illustratorapi/illustrator/IAIFilePath.cpp; sourceTree = "<group>"; };
+		1512BDF12268C00E001D465B /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mztools.c; path = Source/minizip/mztools.c; sourceTree = "<group>"; };
+		1512BDF22268C00E001D465B /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ioapi.c; path = Source/minizip/ioapi.c; sourceTree = "<group>"; };
+		1512BDF32268C00E001D465B /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = zip.c; path = Source/minizip/zip.c; sourceTree = "<group>"; };
+		1512BDF42268C00E001D465B /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = unzip.c; path = Source/minizip/unzip.c; sourceTree = "<group>"; };
+		15DAAF3C25495E1A00834F93 /* TemplateData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TemplateData.cpp; path = Source/TemplateData.cpp; sourceTree = "<group>"; };
+		15DAAF3D25495E1A00834F93 /* Path.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Path.cpp; path = Source/Path.cpp; sourceTree = "<group>"; };
+		15DAAF3E25495E1B00834F93 /* Rule.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Rule.cpp; path = Source/Rule.cpp; sourceTree = "<group>"; };
+		15DAAF3F25495E1B00834F93 /* EXTLogger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EXTLogger.cpp; path = Source/EXTLogger.cpp; sourceTree = "<group>"; };
+		15DAAF4025495E1B00834F93 /* Logger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Logger.cpp; path = Source/Logger.cpp; sourceTree = "<group>"; };
+		15DAAF4125495E1B00834F93 /* CommonUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CommonUtil.cpp; path = Source/CommonUtil.cpp; sourceTree = "<group>"; };
+		15DAAF4225495E1B00834F93 /* RuleData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RuleData.cpp; path = Source/RuleData.cpp; sourceTree = "<group>"; };
+		15DAAF4325495E1B00834F93 /* TemplateLog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TemplateLog.cpp; path = Source/TemplateLog.cpp; sourceTree = "<group>"; };
+		15DAAF4425495E1B00834F93 /* PathSegment.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PathSegment.cpp; path = Source/PathSegment.cpp; sourceTree = "<group>"; };
+		15DAAF4525495E1B00834F93 /* TestPanelController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TestPanelController.cpp; path = Source/TestPanelController.cpp; sourceTree = "<group>"; };
+		15DAAF502549609700834F93 /* HtmlUIController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HtmlUIController.cpp; path = ../common/source/HtmlUIController.cpp; sourceTree = "<group>"; };
+		15DAAF512549609700834F93 /* SDKPlugPlug.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SDKPlugPlug.cpp; path = ../common/source/SDKPlugPlug.cpp; sourceTree = "<group>"; };
+		15DAAF54254960D300834F93 /* IAIStringFormatUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IAIStringFormatUtils.cpp; path = ../../illustratorapi/illustrator/IAIStringFormatUtils.cpp; sourceTree = "<group>"; };
+		15DAAF56254993C000834F93 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = ../Webter/macosx10.13/System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<group>"; };
+		2AF5F7430CF5EF100091D961 /* AppContext.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = AppContext.cpp; path = ../common/source/AppContext.cpp; sourceTree = SOURCE_ROOT; };
+		2AF5F7440CF5EF100091D961 /* IllustratorSDK.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = IllustratorSDK.cpp; path = ../common/source/IllustratorSDK.cpp; sourceTree = SOURCE_ROOT; };
+		2AF5F7450CF5EF100091D961 /* Main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Main.cpp; path = ../common/source/Main.cpp; sourceTree = SOURCE_ROOT; };
+		2AF5F7460CF5EF100091D961 /* Plugin.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Plugin.cpp; path = ../common/source/Plugin.cpp; sourceTree = SOURCE_ROOT; };
+		2AF5F7470CF5EF100091D961 /* SDKAboutPluginsHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SDKAboutPluginsHelper.cpp; path = ../common/source/SDKAboutPluginsHelper.cpp; sourceTree = SOURCE_ROOT; };
+		2AF5F7480CF5EF100091D961 /* Suites.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Suites.cpp; path = ../common/source/Suites.cpp; sourceTree = SOURCE_ROOT; };
+		2AF5F7500CF5EF2B0091D961 /* IAIUnicodeString.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = IAIUnicodeString.cpp; path = ../../illustratorapi/illustrator/IAIUnicodeString.cpp; sourceTree = SOURCE_ROOT; };
+		2AF5F7530CF5EF4D0091D961 /* MenuPlayID.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = MenuPlayID.h; path = Source/MenuPlayID.h; sourceTree = "<group>"; };
+		2AF5F7540CF5EF4D0091D961 /* MenuPlayPlugin.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = MenuPlayPlugin.cpp; path = Source/MenuPlayPlugin.cpp; sourceTree = "<group>"; };
+		2AF5F7550CF5EF4D0091D961 /* MenuPlayPlugin.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = MenuPlayPlugin.h; path = Source/MenuPlayPlugin.h; sourceTree = "<group>"; };
+		2AF5F7560CF5EF4D0091D961 /* MenuPlaySuites.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = MenuPlaySuites.cpp; path = Source/MenuPlaySuites.cpp; sourceTree = "<group>"; };
+		2AF5F7570CF5EF4D0091D961 /* MenuPlaySuites.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = MenuPlaySuites.h; path = Source/MenuPlaySuites.h; sourceTree = "<group>"; };
+		6EE2BA530A40BB2600CC7CE2 /* MenuPlay.aip */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenuPlay.aip; sourceTree = BUILT_PRODUCTS_DIR; };
+		F938CB060B8B9CE60039754D /* MenuPlay.r */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.rez; name = MenuPlay.r; path = Resources/Mac/MenuPlay.r; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		508817D209F0C9AD0071BF1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1512BDE52268A80C001D465B /* libcurl.4.dylib in Frameworks */,
+				1512BDE32268A7DB001D465B /* libxerces.dylib in Frameworks */,
+				15DAAF57254993C000834F93 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1512BDE82268B437001D465B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1512BDEB2268B45D001D465B /* libz.1.1.3.tbd */,
+				1512BDE92268B437001D465B /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		508817C209F0C9740071BF1A = {
+			isa = PBXGroup;
+			children = (
+				15DAAF56254993C000834F93 /* CoreFoundation.framework */,
+				1512BDEF2268BCD4001D465B /* IAIFilePath.cpp */,
+				1512BDE22268A7DB001D465B /* libxerces.dylib */,
+				1512BDE42268A80C001D465B /* libcurl.4.dylib */,
+				508817F509F0CAB50071BF1A /* Sources */,
+				6EE2BA590A40BDD300CC7CE2 /* Resources */,
+				508817D509F0C9AD0071BF1A /* Products */,
+				1512BDE82268B437001D465B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		508817D509F0C9AD0071BF1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EE2BA530A40BB2600CC7CE2 /* MenuPlay.aip */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		508817F509F0CAB50071BF1A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				15DAAF4125495E1B00834F93 /* CommonUtil.cpp */,
+				15DAAF3F25495E1B00834F93 /* EXTLogger.cpp */,
+				15DAAF4025495E1B00834F93 /* Logger.cpp */,
+				15DAAF3D25495E1A00834F93 /* Path.cpp */,
+				15DAAF4425495E1B00834F93 /* PathSegment.cpp */,
+				15DAAF3E25495E1B00834F93 /* Rule.cpp */,
+				15DAAF4225495E1B00834F93 /* RuleData.cpp */,
+				15DAAF3C25495E1A00834F93 /* TemplateData.cpp */,
+				15DAAF4325495E1B00834F93 /* TemplateLog.cpp */,
+				15DAAF4525495E1B00834F93 /* TestPanelController.cpp */,
+				1512BDF22268C00E001D465B /* ioapi.c */,
+				1512BDF12268C00E001D465B /* mztools.c */,
+				1512BDF42268C00E001D465B /* unzip.c */,
+				1512BDF32268C00E001D465B /* zip.c */,
+				1512BDDA2268A1A8001D465B /* ArticleJob.cpp */,
+				1512BDDD2268A1A8001D465B /* ArtworkUtil.cpp */,
+				1512BDDC2268A1A8001D465B /* FerreroServerFacade.cpp */,
+				1512BDDB2268A1A8001D465B /* GraphicItem.cpp */,
+				F9C02BE40BA6E9540039151A /* Shared */,
+				2AF5F7530CF5EF4D0091D961 /* MenuPlayID.h */,
+				2AF5F7540CF5EF4D0091D961 /* MenuPlayPlugin.cpp */,
+				2AF5F7550CF5EF4D0091D961 /* MenuPlayPlugin.h */,
+				2AF5F7560CF5EF4D0091D961 /* MenuPlaySuites.cpp */,
+				2AF5F7570CF5EF4D0091D961 /* MenuPlaySuites.h */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		6EE2BA590A40BDD300CC7CE2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F938CB060B8B9CE60039754D /* MenuPlay.r */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F9C02BE40BA6E9540039151A /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				15DAAF54254960D300834F93 /* IAIStringFormatUtils.cpp */,
+				15DAAF502549609700834F93 /* HtmlUIController.cpp */,
+				15DAAF512549609700834F93 /* SDKPlugPlug.cpp */,
+				2AF5F7500CF5EF2B0091D961 /* IAIUnicodeString.cpp */,
+				2AF5F7430CF5EF100091D961 /* AppContext.cpp */,
+				2AF5F7440CF5EF100091D961 /* IllustratorSDK.cpp */,
+				2AF5F7450CF5EF100091D961 /* Main.cpp */,
+				2AF5F7460CF5EF100091D961 /* Plugin.cpp */,
+				2AF5F7470CF5EF100091D961 /* SDKAboutPluginsHelper.cpp */,
+				2AF5F7480CF5EF100091D961 /* Suites.cpp */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6EE2BA0A0A40B76300CC7CE2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AF5F7580CF5EF4D0091D961 /* MenuPlayID.h in Headers */,
+				2AF5F75A0CF5EF4D0091D961 /* MenuPlayPlugin.h in Headers */,
+				2AF5F75C0CF5EF4D0091D961 /* MenuPlaySuites.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		508817D309F0C9AD0071BF1A /* MenuPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 508817D709F0C9AE0071BF1A /* Build configuration list for PBXNativeTarget "MenuPlay" */;
+			buildPhases = (
+				6EE2BA0A0A40B76300CC7CE2 /* Headers */,
+				508817D109F0C9AD0071BF1A /* Sources */,
+				508817D009F0C9AD0071BF1A /* Resources */,
+				508817D209F0C9AD0071BF1A /* Frameworks */,
+				6EE2BA0C0A40B77400CC7CE2 /* Rez */,
+				1512BDF92269B858001D465B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MenuPlay;
+			productName = MenuPlayProject;
+			productReference = 6EE2BA530A40BB2600CC7CE2 /* MenuPlay.aip */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		508817C409F0C9740071BF1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 508817C509F0C9740071BF1A /* Build configuration list for PBXProject "MenuPlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 508817C209F0C9740071BF1A;
+			productRefGroup = 508817D509F0C9AD0071BF1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				508817D309F0C9AD0071BF1A /* MenuPlay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		508817D009F0C9AD0071BF1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		6EE2BA0C0A40B77400CC7CE2 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F938CB070B8B9CE60039754D /* MenuPlay.r in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		508817D109F0C9AD0071BF1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15DAAF4E25495E1B00834F93 /* PathSegment.cpp in Sources */,
+				15DAAF4D25495E1B00834F93 /* TemplateLog.cpp in Sources */,
+				1512BDF82268C00E001D465B /* unzip.c in Sources */,
+				15DAAF4C25495E1B00834F93 /* RuleData.cpp in Sources */,
+				15DAAF4625495E1B00834F93 /* TemplateData.cpp in Sources */,
+				2AF5F7490CF5EF100091D961 /* AppContext.cpp in Sources */,
+				15DAAF4825495E1B00834F93 /* Rule.cpp in Sources */,
+				2AF5F74A0CF5EF100091D961 /* IllustratorSDK.cpp in Sources */,
+				15DAAF532549609700834F93 /* SDKPlugPlug.cpp in Sources */,
+				15DAAF4F25495E1B00834F93 /* TestPanelController.cpp in Sources */,
+				1512BDF02268BCD4001D465B /* IAIFilePath.cpp in Sources */,
+				2AF5F74B0CF5EF100091D961 /* Main.cpp in Sources */,
+				2AF5F74C0CF5EF100091D961 /* Plugin.cpp in Sources */,
+				1512BDDF2268A1A8001D465B /* GraphicItem.cpp in Sources */,
+				15DAAF55254960D300834F93 /* IAIStringFormatUtils.cpp in Sources */,
+				1512BDF72268C00E001D465B /* zip.c in Sources */,
+				2AF5F74D0CF5EF100091D961 /* SDKAboutPluginsHelper.cpp in Sources */,
+				2AF5F74E0CF5EF100091D961 /* Suites.cpp in Sources */,
+				15DAAF522549609700834F93 /* HtmlUIController.cpp in Sources */,
+				1512BDDE2268A1A8001D465B /* ArticleJob.cpp in Sources */,
+				1512BDE12268A1A8001D465B /* ArtworkUtil.cpp in Sources */,
+				15DAAF4B25495E1B00834F93 /* CommonUtil.cpp in Sources */,
+				1512BDF62268C00E001D465B /* ioapi.c in Sources */,
+				15DAAF4A25495E1B00834F93 /* Logger.cpp in Sources */,
+				15DAAF4725495E1B00834F93 /* Path.cpp in Sources */,
+				1512BDE02268A1A8001D465B /* FerreroServerFacade.cpp in Sources */,
+				15DAAF4925495E1B00834F93 /* EXTLogger.cpp in Sources */,
+				2AF5F7520CF5EF2B0091D961 /* IAIUnicodeString.cpp in Sources */,
+				2AF5F7590CF5EF4D0091D961 /* MenuPlayPlugin.cpp in Sources */,
+				2AF5F75B0CF5EF4D0091D961 /* MenuPlaySuites.cpp in Sources */,
+				1512BDF52268C00E001D465B /* mztools.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		508817C609F0C9740071BF1A /* debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AI_CONFIGURATION = debug;
+				AI_LOCALE = en_US;
+				AI_PLATFORM = xcode;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CONFIGURATION_BUILD_DIR = "./../output/mac/$(AI_CONFIGURATION)";
+				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/Default";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DSTROOT = "/tmp/$(PROJECT_NAME).dst";
+				EXPORTED_SYMBOLS_FILE = "";
+				FRAMEWORK_SEARCH_PATHS = "$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)";
+				GCC_DEBUGGING_SYMBOLS = used;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "./../common/includes/IllustratorSDK$(AI_CONFIGURATION).pch";
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					./../../illustratorapi,
+					/Developer/Headers/FlatCarbon,
+					.,
+					./../common,
+					./../../illustratorapi/pica_sp,
+					./../../illustratorapi/ate,
+					./../../illustratorapi/illustrator,
+					./../common/includes,
+					./Source,
+					./../../illustratorapi/illustrator/actions,
+					./../pipl,
+				);
+				INFOPLIST_FILE = ../common/mac/Info.plist;
+				INFOPLIST_PREFIX_HEADER = ../common/includes/SDKDef.h;
+				INFOPLIST_PREPROCESS = YES;
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OBJROOT = .;
+				ONLY_LINK_ESSENTIAL_SYMBOLS = YES;
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				PRESERVE_DEAD_CODE_INITS_AND_TERMS = NO;
+				PRODUCT_NAME = MenuPlay;
+				PROJECTNAME = MenuPlay;
+				REZ_SEARCH_PATHS = "";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SDKROOT = macosx;
+				SEPARATE_STRIP = NO;
+				SHARED_PRECOMPS_DIR = "./../output/mac/sharedprecompiledheaders/$(AI_CONFIGURATION)";
+				SKIP_INSTALL = NO;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = all;
+				SYMROOT = "./../output/mac/$(AI_CONFIGURATION)";
+				VALID_ARCHS = "i386 x86_64";
+				WRAPPER_EXTENSION = aip;
+				ZERO_LINK = NO;
+			};
+			name = debug;
+		};
+		508817C709F0C9740071BF1A /* release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AI_CONFIGURATION = release;
+				AI_LOCALE = en_US;
+				AI_PLATFORM = xcode;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CONFIGURATION_BUILD_DIR = "./../output/mac/$(AI_CONFIGURATION)";
+				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/Default";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DSTROOT = "/tmp/$(PROJECT_NAME).dst";
+				EXPORTED_SYMBOLS_FILE = "";
+				FRAMEWORK_SEARCH_PATHS = "$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)";
+				GCC_DEBUGGING_SYMBOLS = used;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "./../common/includes/IllustratorSDK$(AI_CONFIGURATION).pch";
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					./../../illustratorapi,
+					/Developer/Headers/FlatCarbon,
+					.,
+					./../common,
+					./../../illustratorapi/pica_sp,
+					./../../illustratorapi/ate,
+					./../../illustratorapi/illustrator,
+					./../common/includes,
+					./Source,
+					./../../illustratorapi/illustrator/actions,
+					./../pipl,
+				);
+				INFOPLIST_FILE = ../common/mac/Info.plist;
+				INFOPLIST_PREFIX_HEADER = ../common/includes/SDKDef.h;
+				INFOPLIST_PREPROCESS = YES;
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OBJROOT = .;
+				ONLY_LINK_ESSENTIAL_SYMBOLS = YES;
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				PRESERVE_DEAD_CODE_INITS_AND_TERMS = NO;
+				PRODUCT_NAME = MenuPlay;
+				PROJECTNAME = MenuPlay;
+				REZ_SEARCH_PATHS = "";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SDKROOT = macosx;
+				SEPARATE_STRIP = NO;
+				SHARED_PRECOMPS_DIR = "./../output/mac/sharedprecompiledheaders/$(AI_CONFIGURATION)";
+				SKIP_INSTALL = NO;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = all;
+				SYMROOT = "./../output/mac/$(AI_CONFIGURATION)";
+				VALID_ARCHS = "i386 x86_64";
+				WRAPPER_EXTENSION = aip;
+				ZERO_LINK = NO;
+			};
+			name = release;
+		};
+		508817D809F0C9AE0071BF1A /* debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_LDFLAGS = "-lz";
+				REZ_SEARCH_PATHS = "";
+				SDKROOT = macosx;
+				STRIP_STYLE = "non-global";
+			};
+			name = debug;
+		};
+		508817D909F0C9AE0071BF1A /* release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_LDFLAGS = "-lz";
+				REZ_SEARCH_PATHS = "";
+				SDKROOT = macosx;
+				STRIP_STYLE = "non-global";
+			};
+			name = release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		508817C509F0C9740071BF1A /* Build configuration list for PBXProject "MenuPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				508817C609F0C9740071BF1A /* debug */,
+				508817C709F0C9740071BF1A /* release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = debug;
+		};
+		508817D709F0C9AE0071BF1A /* Build configuration list for PBXNativeTarget "MenuPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				508817D809F0C9AE0071BF1A /* debug */,
+				508817D909F0C9AE0071BF1A /* release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 508817C409F0C9740071BF1A /* Project object */;
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="7.0" ExtensionBundleId="ferrero" ExtensionBundleVersion="1.0.0" ExtensionBundleName="Ferrero">
+   <ExtensionList>
+      <Extension Id="com.emerasoft.ferrero" Version="1.0" />
+   </ExtensionList>
+   <ExecutionEnvironment>
+      <HostList>
+         <Host Name="IDSN" Version="13" />
+         <Host Name="ILST" Version="19" />
+         <Host Name="PHSP" Version="16" />
+         <Host Name="PHXS" Version="16" />
+      </HostList>
+      <LocaleList>
+         <Locale Code="All" />
+      </LocaleList>
+      <RequiredRuntimeList>
+         <RequiredRuntime Name="CSXS" Version="7.0" />
+      </RequiredRuntimeList>
+   </ExecutionEnvironment>
+   <DispatchInfoList>
+      <Extension Id="com.emerasoft.ferrero">
+         <DispatchInfo>
+            <Resources>
+                <MainPath>./html/index.html</MainPath>
+                <ScriptPath>./jsx/jsApp.jsx</ScriptPath>
+                <CEFCommandLine>
+                        <Parameter>--enable-nodejs</Parameter>
+                  </CEFCommandLine>
+            </Resources>
+            <Lifecycle>
+               <AutoVisible>true</AutoVisible>
+            </Lifecycle>
+            <UI>
+               <Type>Panel</Type>
+               <Menu>Ferrero</Menu>
+               <Geometry>
+                  <MinSize>
+                     <Height>710</Height>
+                     <Width>650</Width>
+                  </MinSize>
+                  <Size>
+                     <Height>710</Height>
+                     <Width>650</Width>
+                  </Size>
+                  <MaxSize>
+                     <Height>1200</Height>
+                     <Width>1600</Width>
+                  </MaxSize>
+               </Geometry>
+            </UI>
+         </DispatchInfo>
+      </Extension>
+   </DispatchInfoList>
+</ExtensionManifest>

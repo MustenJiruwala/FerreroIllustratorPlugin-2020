@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html ng-app="ferreroApp" ng-controller="FerreroController">
+    <head>
+        <script type="text/javascript" src="../shared/libraries/js/jquery.js"></script>
+        <script type="text/javascript" src="../shared/libraries/js/jquery-ui.js"></script>
+        <script type="text/javascript" src="../shared/libraries/js/angular-1.5.0.js"></script>
+        <script type="text/javascript" src="../shared/libraries/js/angular-dragdrop.js"></script>
+        <script type="text/javascript" src="../shared/libraries/js/angular-filter.js"></script>
+    
+        <script type="text/javascript" src="../shared/libraries/js/angular-click-outside.js"></script>
+        <script type="text/javascript" src="../shared/libraries/js/angular-cookies.js"></script>
+        <script type="text/javascript" src="../shared/libraries/js/CSInterface-6.0.0.js"></script>
+        <script type="text/javascript" src="../js/ferreroApp.js"></script>
+        <script type="text/javascript" src="../shared/libraries/js/ui-bootstrap-tpls-1.2.4.js"></script>
+        <link rel="stylesheet" type="text/css" href="../shared/libraries/css/ferreroApp.css">
+    </head>
+    <body ng-init="appLoaded()">
+        <div>
+            <div>
+                <img src="../images/logo_ferrero_h30.gif" alt="logo" class=".logo"/>
+            </div>
+            <div>
+                <label class="labelCategory">Select Category : </label>
+                <select ng-model="selectedCategory" class="categoryDropDown">
+                    <option ng-repeat="category in arrCategoryList" value="{{category}}">{{category.name}}</option>
+                </select>
+                <button class="buttonConvert" id="btn_ILST" ng-click="onClickButton('ILST')">Convert</button>
+            </div>
+            <div  class="separator">
+                <span>OR</span>
+            </div>   
+            <div>
+                <label class="labelTemplate">Enter comma separated template id : </label>
+            </div>   
+            <div>
+                <textarea id="templateid" rows="4" cols="50"></textarea>
+            </div>
+            <div>
+                <button class="buttonConvertTemplate" id="btn_template" ng-click="onTemplateButton()">Convert Templates</button>
+            </div>
+            <div class="logDivision">
+                <label class="logLabel">Conversion log : </label>
+                <div class="consoleLog" ng-bind="logMessages" id="idConsoleLog"></div>
+            </div>
+            <div>
+                <button class="buttonCopy" id="btn_copy" ng-click="copyLog()">Copy</button>
+                <button class="buttonConvert" id="btn_STOP" ng-click="stopConversion()">Stop</button>
+            </div>
+        </div>
+    </body>
+</html>

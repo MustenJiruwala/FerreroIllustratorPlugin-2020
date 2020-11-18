@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<ExtensionList>
+    <Extension Id="com.emerasoft.ferrero">
+        <HostList>
+            <Host Name="IDSN" Port="8888" />
+            <Host Name="ILST" Port="8888"/>
+        </HostList>
+    </Extension>
+</ExtensionList>
+ 

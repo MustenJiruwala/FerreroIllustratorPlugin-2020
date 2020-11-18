@@ -1,0 +1,70 @@
+body{
+    background-color: lightgoldenrodyellow;
+}
+
+.logo{
+    width : 120px;
+    height : 40px;
+    object-fit: contain;
+}
+
+.labelCategory {
+    width: 20%;
+}
+
+.labelTemplate {
+    width: 50%;
+}
+.separator{
+    width: 100%;
+    text-align: center;
+}
+.categoryDropDown{
+    width: 60%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: lightyellow;
+}
+
+.buttonConvert {
+    width: 20%;
+    padding: 5px;
+    background-color: lightyellow;
+    border-radius: 5px;
+}
+
+.buttonConvertTemplate {
+    width: 30%;
+    padding: 5px;
+    background-color: lightyellow;
+    border-radius: 5px;
+}
+
+.logDivision{
+    margin-top: 20px;
+}
+
+.logLabel{
+    width: 20%;
+}
+
+.consoleLog{
+    background-color: white;
+    height: 400px;
+    width: 96%;
+    border: solid 2px;
+    border-radius: 5px;
+    padding: 1%;
+    margin-top: 10px;
+    overflow: auto;
+    text-align: justify;
+    flex-grow: 1;
+    white-space: pre-line;
+}
+
+.buttonCopy{
+    width: 20%;
+    padding: 5px;
+    background-color: lightyellow;
+    border-radius: 5px;
+}
